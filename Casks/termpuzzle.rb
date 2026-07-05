@@ -1,14 +1,14 @@
 cask "termpuzzle" do
-  version "0.4.1"
+  version "0.4.2"
 
   on_arm do
-    sha256 "f2de3da02b520f79dbc3e7609f86346ff472b1f6f8216682cf2cbbe1b1ee5b61"
+    sha256 "96e33282f75ab80d383d0786685bd676b04c0304f388becd85f702565856c3ee"
 
     url "https://github.com/ElBartox/termpuzzle-releases/releases/download/v#{version}/TermPuzzle-#{version}-arm64.dmg",
         verified: "github.com/ElBartox/termpuzzle-releases/"
   end
   on_intel do
-    sha256 "dbe20ed5886a96fa5196c7bf90aa218c2b958ec9d8365aeda1caf6dbdd2d88c6"
+    sha256 "d758c6a9cdebb8ab4085a9e47c4078f1ee630969e868fec92c6d42873145ae0e"
 
     url "https://github.com/ElBartox/termpuzzle-releases/releases/download/v#{version}/TermPuzzle-#{version}.dmg",
         verified: "github.com/ElBartox/termpuzzle-releases/"
